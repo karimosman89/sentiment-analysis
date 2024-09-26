@@ -13,5 +13,3 @@ def train_model(data_path):
     joblib.dump(model, 'sentiment_model.pkl')
     return model
 
-if __name__ == "__main__":
-    train_model('data/reviews.csv')
